@@ -1,4 +1,5 @@
 <?php
+if ($_SERVER["REQUEST_METHOD"] === "POST"){
 $name = $_POST['name'] ?? '';
 $age = $_POST['age'] ?? '';
 $tel = $_POST['tel'] ?? '';
@@ -12,7 +13,10 @@ $gender_map = [
   'other' => 'その他',
 ];
 $gender_display = $gender_map[$selected_gender] ?? '';
+}
 ?>
+
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
