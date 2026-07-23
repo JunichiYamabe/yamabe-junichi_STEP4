@@ -42,7 +42,7 @@
 
       <div class="form-group">
         <label for="question">質問：</label>
-        <input type="text" id="question" name="question" rows="1" required></textarea>
+        <input type="text" id="question" name="question" required>
       </div>
 
       <div class="form-group">
