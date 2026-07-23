@@ -2,7 +2,7 @@
 if ($_SERVER["REQUEST_METHOD"] === "POST"){
 $name = $_POST['name'] ?? '';
 $age = $_POST['age'] ?? '';
-$tel = $_POST['tel'] ?? '';
+$phone = $_POST['phone'] ?? '';
 $email = $_POST['email'] ?? '';
 $adress = $_POST['adress'] ?? '';
 $question = $_POST['question'] ?? '';
@@ -46,7 +46,7 @@ $gender_display = $gender_map[$selected_gender] ?? '';
 
       <tr>
         <th>電話番号</th>
-        <td><?php echo htmlspecialchars($tel, ENT_QUOTES, 'UTF-8'); ?></td>
+        <td><?php echo htmlspecialchars($phone, ENT_QUOTES, 'UTF-8'); ?></td>
       </tr>
 
       <tr>
