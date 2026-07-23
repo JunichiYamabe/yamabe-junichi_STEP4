@@ -27,7 +27,7 @@
 
       <div class="form-group">
         <label for="tel">電話番号：</label>
-        <input type="telephone" id="tel" name="tel" required>
+        <input type="tel" id="tel" name="tel" required>
       </div>
 
       <div class="form-group">
