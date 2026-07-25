@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>お問い合わせフォーム</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -26,8 +26,8 @@
       </div>
 
       <div class="form-group">
-        <label for="tel">電話番号：</label>
-        <input type="telephone" id="tel" name="tel" required>
+        <label for="phone">電話番号：</label>
+        <input type="tel" id="phone" name="phone" required>
       </div>
 
       <div class="form-group">
@@ -42,7 +42,7 @@
 
       <div class="form-group">
         <label for="question">質問：</label>
-        <input type="text" id="question" name="question" rows="1" required></textarea>
+        <input type="text" id="question" name="question" required>
       </div>
 
       <div class="form-group">
